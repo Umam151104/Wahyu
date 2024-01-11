@@ -1,0 +1,53 @@
+.right_header_info {
+    width: 100%;
+    float: left;
+    padding: 20px 0 0;
+}
+.right_header_info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+.right_header_info ul li {
+    display: inline;
+    font-size: 16px;
+    margin-left: 45px;
+    color: #eaeaea;
+    font-weight: 400;
+    float: left;
+}
+.right_header_info ul li a {
+    color: #eaeaea;
+    font-weight: 300;
+}
+
+.button_user a {
+    float: left;
+    min-width: 75px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    position: relative;
+    top: -3px;
+    padding: 0 15px;
+    margin: 0 2px;
+}
+.button_user a {
+    float: left;
+    min-width: 75px;
+    height: 40px;
+    text-align: center;
+    line-height: 38px;
+    position: relative;
+    top: -7px;
+    padding: 0 15px;
+    margin: 0 2px;
+    border: solid #eaeaea 1px;
+}
+.button_user a:hover, .button_user a:focus, .button_user a.active {
+	background-color: #3acda1;
+    color: #fff;
+    border-color: #fff;
+    color: rgb(248, 246, 246);
+}
